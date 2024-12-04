@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar flottant -->
+    <nav class="navbar-flottant">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Formulaire de connexion -->
+    <div class="conteneur-auth">
+        <form action="#">
+            <h2>Bienvenue</h2>
+            <div class="champ-texte">
+                <input type="email" name="email" required>
+                <label for="email">Entrez votre Email</label>
+            </div>
+            <div class="champ-texte">
+                <input type="password" name="password" required>
+                <label for="password">Entrez votre mot de passe</label>
+            </div>
+            <div class="options">
+                <label for="memo">
+                    <input type="checkbox" id="memo">
+                    <p>Se rappeler de moi</p>
+                </label>
+                <a href="#">Mot de passe oublié ?</a>
+            </div>
+            <button type="submit">Se connecter</button>
+            <div class="lien-inscription">
+                <p>
+                    Vous n'avez pas de compte ?
+                    <a href="#">Enregistrez-vous</a>
+                </p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
